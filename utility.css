@@ -1,0 +1,75 @@
+.highlight-box{
+  border: 0.75px solid rgba(251, 251, 251, 0.05);
+  background-color: #03141f;
+  height: 60px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+}
+.highlight-box a{ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.highlight-box a i{ 
+  line-height: 13px;
+}
+.box{
+  border: 0.75px solid rgba(251, 251, 251, 0.05);
+  background-color: #031724;
+  padding: 10px;
+}
+.box-1{
+  border: 0.75px solid rgba(251, 251, 251, 0.05);
+  background-color: #031724;
+  padding: 5px;
+  font-size: 12px;
+}
+.bold{
+ font-size: 30px;
+}
+.s-size{
+  font-size: 13px;
+  color: rgb(170, 170, 170);
+}
+.map-box{
+  border: 0.75px solid rgba(251, 251, 251, 0.05);
+  background-color: #031724;
+  padding: 5px;
+}
+.btn-1{
+  margin: 1px;
+  border: 0.75px solid rgba(251, 251, 251, 0.05);
+  padding: 0px 9px;
+  background: linear-gradient(270deg, rgba(0, 170, 255, 0.02) 0%, rgba(0, 170, 255, 0.00) 100%);
+}
+.btn-1 i{
+  margin: 14px 10px;
+  font-size: 25px;
+}
+.project-p{
+  font-size: 13px;
+  color: gray;
+}
+@media only screen and (max-width:1350px){
+  .highlight-box{
+    height: 80px;
+    width: 83%;
+  }
+
+}
+@media only screen and (max-width:750px){
+  .highlight-box{
+    height: 80px;
+    width: 86%;
+  }
+}
+@media only screen and (max-width:570px) {
+  .box {
+    padding: 5px;
+}
+.highlight-box{
+  height: 60px;
+  width: 101%;
+}
+}
